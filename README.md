@@ -1,3 +1,6 @@
-# trabalho de programaçõa estruturada
+# trabalho de programaÃ§Ãµa estruturada
 
-Este trabalho será um sistema de gestão e organização de eventos, desenvolvido para a disciplina de programação estruturada 
+Este trabalho serÃ¡ um sistema de gestÃ£o e organizaÃ§Ã£o de eventos, desenvolvido para a disciplina de programaÃ§Ã£o estruturada 
+
+## passo a passo para executar
+1- compile e execute o arquivo headers.c
