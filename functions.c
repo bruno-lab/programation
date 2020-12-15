@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-//#include "functions.h"
+#include "functions.h"
 
 //essa função soma a quantidade de convidados
 //ela recebe como parametro uma variavel com o valor de parada
@@ -107,7 +107,7 @@ int comparaString(char primeiraString[30], char segundaString[30]){
 //essa funcao informa os gastos extras que serão necessários com o evento de acordo com o tipo de festa
 //quero melhorar ela depois pra ter mais itens e mais detalhados
 void gastosExtras() {
-		char tipoFesta[30], tipoFestaCompara1[30] = "infantil", tipoFestaCompara2[30] = "adulto", tipoFestaCompara3[30] = "debutante" ;
+	char tipoFesta[30], tipoFestaCompara1[30] = "infantil", tipoFestaCompara2[30] = "adulto", tipoFestaCompara3[30] = "debutante" ;
 	printf("\ninfrome se a festa eh  infantil, adulto, debutante\n");
 	scanf("%s", tipoFesta);
 
