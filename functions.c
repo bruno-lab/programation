@@ -156,7 +156,7 @@ int comparaString(char primeiraString[30], char segundaString[30]){
 //quero melhorar ela depois pra ter mais itens e mais detalhados
 void gastosExtras() {
 	char tipoFesta[30], tipoFestaCompara1[30] = "infantil", tipoFestaCompara2[30] = "adulto", tipoFestaCompara3[30] = "debutante" ;
-	printf("\ninfrome se a festa eh  infantil, adulto, debutante\n");
+	printf("\ninforme se a festa eh  infantil, adulto, debutante\n");
 	scanf("%s", tipoFesta);
 	
 	if(comparaString(tipoFesta,tipoFestaCompara1)) {
@@ -228,7 +228,7 @@ void divideMesas(int *convidados) {
 	    conv[indice] = malloc(sizeof(char)*30);
 	}
 
-	printf("\n ***Informe os sobrenomes e a quantidade de pessoas convidadas de cada familia***\n");
+	printf("\n***Informe os sobrenomes e a quantidade de pessoas convidadas de cada familia***\n");
 	for(i=0;i<parada;i++) {
 		printf("\nInforme o sobrenome da %d familia\n", i+1);
 		scanf("%s", conv[i]);
@@ -245,7 +245,10 @@ void divideMesas(int *convidados) {
 	}
 
 	ordenaAlfabetica(conv, quantCov, parada);
+	
 	int cont = 0;
+	printf("\n\n## Divisao mesas ##\n");
+	
 	for(i=0;i<parada;i++) {
 		if(quantCov[i] > 5) {
 			printf("\n mesas %d  e %d familia %s\n", cont+1, cont+2, conv[i]);

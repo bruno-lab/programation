@@ -7,6 +7,7 @@
 int main() {
 	int convidados[3];
     float orcamento;
+    printf("\n##### BEM-VINDO AO ORGANIZADOR DE EVENTOS #####\n\n");
     printf("\n***** INFORMACOES INICIAIS *****\n");
     printf("\n### Convidados ###\n");
  	printf("\nInforme quantos homens adultos estao convidados\n");
