@@ -14,7 +14,9 @@ int comparaString(char primeiraString[30], char segundaString[30]);
 
 void gastosExtras();
 
-void ordenaAlfabetica(char (*conv)[30],int parada);
+void ordenaAlfabetica(char **conv, int *quantConvFam, int parada);
 
-void divideMesas();
+void calculaBebidas(int *convidados);
+
+void divideMesas(int *convidados);
 
